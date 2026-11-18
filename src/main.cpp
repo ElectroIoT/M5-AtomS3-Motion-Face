@@ -357,7 +357,7 @@ static void draw(uint32_t now) {
   }
 
   if (mood == SCARED) {
-    uint16_t d = rgb(120, 200, 255);
+    uint16_t d = rgb(235, 248, 255);
     cv.fillCircle(106 + X, 34 + Y, 4, d);
     cv.fillTriangle(102 + X, 34 + Y, 110 + X, 34 + Y, 106 + X, 24 + Y, d);
   }
