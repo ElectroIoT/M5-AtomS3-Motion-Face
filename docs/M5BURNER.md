@@ -36,6 +36,20 @@ Needs the AtomS3 with display and MPU6886 (not AtomS3 Lite).
 Source, guide and serial test commands: see the GitHub link.
 ```
 
+## Version description (markdown, paste as is)
+
+```markdown
+## v1.0.0 - first release
+
+- 4 animated characters: **Cat**, **Robo**, **Boo** (ghost), **Cyclo** (cyclops)
+- Reacts to the MPU6886 motion sensor: tilt = eyes follow, move = happy, shake = dizzy, drop = scared, still = drowsy then asleep (Zzz)
+- Click the screen button = next character (pop animation), hold = new colour (6 themes)
+- Remembers your character and colour after power off
+- No Wi-Fi, no setup. For the **AtomS3 with display + MPU6886** (not AtomS3 Lite)
+
+Source, guide and serial test commands: https://github.com/ElectroIoT/M5-AtomS3-Motion-Face
+```
+
 ## Making the image (maintainers)
 
 ```bash
