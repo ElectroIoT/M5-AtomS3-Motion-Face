@@ -1,0 +1,13 @@
+{
+  "name": "M5 AtomS3 Motion Face",
+  "version": "1.0.0",
+  "new_install_prompt_erase": true,
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [
+        { "path": "M5-AtomS3-Motion-Face-v1.0.0-full.bin", "offset": 0 }
+      ]
+    }
+  ]
+}
